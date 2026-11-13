@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-h3-image-batch"
+description = "Batch size above 1 for MiniMax H3 Image, P-H3-Image and MiniMax H3 video: runs the model once per batch item, and saves batched video as separate clips with their own audio."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/an80sPWNstar/comfyui-h3-image-batch"
+
+[tool.comfy]
+PublisherId = "an80spwnstar"
+DisplayName = "MiniMax H3 Image Batch"
