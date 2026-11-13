@@ -181,6 +181,10 @@ And the whole workflow after one run, so you can see where everything sits. The 
 
 Why the second node? Without it, all clips are glued into one video with only the first clip's sound. With it, you get one video file per clip, each with its own sound.
 
+**Seeing every clip on the canvas.** ComfyUI's **Save Video** box normally shows only the first clip, even when it saved all of them. With this pack installed, the box shows every clip from the run side by side, each with its own play button. You only need one **Create Video** and one **Save Video**; there is nothing extra to add or connect. Click a clip's name to open it in a new tab. After updating, restart ComfyUI once and reload the page.
+
+![Save Video showing both clips from one run](assets/howto/15_all_clips_on_save_video.png)
+
 <!-- SCREENSHOT: assets/howto/06_video_batch_node.png (batch node placed in a video workflow) -->
 <!-- SCREENSHOT: assets/howto/07_video_separate_node.png (separate videos node between the decoders and Create Video) -->
 <!-- SCREENSHOT: assets/howto/08_video_results.png (output folder or queue showing one file per clip) -->

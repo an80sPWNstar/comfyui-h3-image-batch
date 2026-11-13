@@ -179,3 +179,5 @@ class MiniMaxH3SplitVideoBatch:
 
 NODE_CLASS_MAPPINGS["MiniMaxH3SplitVideoBatch"] = MiniMaxH3SplitVideoBatch
 NODE_DISPLAY_NAME_MAPPINGS["MiniMaxH3SplitVideoBatch"] = "MiniMax H3 Batch: separate videos"
+
+WEB_DIRECTORY = "./web"
