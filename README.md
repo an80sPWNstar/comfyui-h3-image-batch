@@ -300,7 +300,7 @@ I got tired of not being able to do that with MiniMax H3, so I grabbed Claude Co
 
 If you have any issues with this, please open a new issue in this GitHub repo so I can address it.
 
-P.S. If you like my other custom node, ComfyUI Watcher, I have a desktop companion app for it that I'm going to put on my Patreon page once I get it all set up. The name of the page will more than likely be "The Comfy Admin".
+P.S. If you like my other custom node, [ComfyUI Watcher](https://github.com/an80sPWNstar/ComfyUI-Watcher), I have a desktop companion app for it that I'm going to put on my Patreon page once I get it all set up. The name of the page will more than likely be "The Comfy Admin".
 
 I'm going to be releasing a lot more of my personal projects that I've made with my 20 years of IT experience and Claude Code. They're really unique and helpful. Keep an eye on my [GitHub](https://github.com/an80sPWNstar) and Patreon pages for when they get released!
 
