@@ -131,11 +131,12 @@ function showClips(node, message) {
     const clips = buildClipList(message);
 
     if (clips.length < 2) {
-      if (node.__h3AllClips) {
-        const { root } = node.__h3AllClips;
-        root.replaceChildren();
-        root.style.display = "none";
-      }
+      // We never attached a widget to this node: leave its size and preview alone.
+      if (!node.__h3AllClips) return;
+
+      const { root } = node.__h3AllClips;
+      root.replaceChildren();
+      root.style.display = "none";
       setStockPreviewHidden(node, false);
       resizeNode(node);
       return;
